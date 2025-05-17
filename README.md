@@ -83,7 +83,11 @@ The script requires the following files to be in the same directory:
 
 - `md_noPBC.xtc` - Trajectory with periodic boundary conditions removed
 - `md_fit.xtc` - Trajectory after rotational and translational fitting
-- gmx_MMPBSA calculation results (dependent on mmpbsa.in settings, typically including binding free energy and its components)
+- FINAL_DECOMP_MMPBSA.dat
+- FINAL_RESULTS_MMPBSA.dat
+And it will help you make some figures like：
+![image](https://github.com/user-attachments/assets/f9305de6-71f8-4c1e-be09-9b8356849f43)
+![7f8bfa5e17df695ab3f6143489b01d7](https://github.com/user-attachments/assets/985c41ff-bcf4-45b9-9b2d-e1b4f582446a)
 
 ## Notes
 
@@ -100,4 +104,5 @@ MM-PBSA calculation parameters are defined in the `mmpbsa.in` file. Common param
 - External dielectric constant
 - Entropy contribution calculation options
 - And more
+
 
